@@ -42,10 +42,9 @@ def speak(text, start_position, open_time, close_time):
     text_over_image("closed.jpeg", text, start_position, close_time)
 
 def mr_burns():
-    image_pause("static1.jpeg", 0.0005)
-    image_pause("static2.jpeg", 0.0005)
-    image_pause("static3.jpeg", 0.0005)
-    image_pause("static4.jpeg", 0.0005)
+    static = ["static1.jpeg", "static2.jpeg", "static3.jpeg", "static4.jpeg"]
+    for image in static:
+        image_pause(image, 0.0005)
     image_pause("closed.jpeg", 0.8)
 
     # Print line 1 to screen
