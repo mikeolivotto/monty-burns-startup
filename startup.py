@@ -38,14 +38,14 @@ def text_over_image(file, text, start_position, time):
     update_and_pause(time)
 
 def speak(text, start_position, open_time, close_time):
-    text_over_image("open.jpeg", text, start_position, open_time)
-    text_over_image("closed.jpeg", text, start_position, close_time)
+    text_over_image("img/open.jpeg", text, start_position, open_time)
+    text_over_image("img/closed.jpeg", text, start_position, close_time)
 
 def mr_burns():
-    static = ["static1.jpeg", "static2.jpeg", "static3.jpeg", "static4.jpeg"]
+    static = ["img/static1.jpeg", "img/static2.jpeg", "img/static3.jpeg", "img/static4.jpeg"]
     for image in static:
         image_pause(image, 0.0005)
-    image_pause("closed.jpeg", 0.8)
+    image_pause("img/closed.jpeg", 0.8)
 
     # Print line 1 to screen
     line_1 = "Hello, Smithers."
@@ -71,4 +71,4 @@ def mr_burns():
     speak("turning me", start_position, 0.15, 0.15)
     speak("turning me on.", start_position, 0.1, 0.5)
     
-    image_pause("closed.jpeg", 1.2)
+    image_pause("img/closed.jpeg", 1.2)
