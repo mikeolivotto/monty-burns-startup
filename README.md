@@ -14,11 +14,11 @@ Inspired by Mr Smithers' own custom computer startup sequence from [The Simpsons
 
 ### Before you begin
 
-The following assumes you already know how to set up a pico with MicroPython. If you're completely new, checkout Pimoroni's [Getting started with Raspberry Pi Pico](https://learn.pimoroni.com/article/getting-started-with-pico) tutorial, and install their Micropython custom firmware.
+The following assumes you already know how to set up a pico with MicroPython. If you're completely new, check out Pimoroni's [Getting started with Raspberry Pi Pico](https://learn.pimoroni.com/article/getting-started-with-pico) tutorial, and install their Micropython custom firmware.
 
 ### Usage
 
-Clone this repo to your local, [uploading the files to your Pi Pico](https://www.freva.com/transfer-files-between-computer-and-raspberry-pi-pico/). **You must remove the `monty-burns-startup.gif`** as the pico only has 264kb of available memory. The rest of the repo is approx 23kb total.
+Clone this repo to your local, [uploading the files to your Pi Pico](https://www.freva.com/transfer-files-between-computer-and-raspberry-pi-pico/). **You must remove the `monty-burns-startup.gif`** as the pico only has 2MB of available memory. The rest of the repo is approx 23kb total.
 
 
 ### Adding it to your own project
